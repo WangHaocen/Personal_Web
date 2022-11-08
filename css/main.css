@@ -1,0 +1,43 @@
+body{
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.nav_item{
+    position:fixed;
+    left:75%;
+}
+
+.nav_links{
+    position: relative;
+    margin-right: 20px;
+    color: whitesmoke;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.port_image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    position: relative;
+    top: 100px; 
+}
+
+.personal_title{
+    position: absolute;
+    top: 15%; 
+    left: 45%;
+    color: white;
+    font-size: 350%;
+}
+
+.personal_description{
+    position: absolute;
+    top: 30%; 
+    left: 43%;
+    color: white;
+    font-size: 150%;
+}

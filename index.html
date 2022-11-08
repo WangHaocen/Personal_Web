@@ -21,35 +21,23 @@
     <link rel=preload href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600%7CPoppins:400,600,700&display=swap" as=style>
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,600%7CPoppins:400,600,700&display=swap" rel=stylesheet>
     -->
-    <!-- <link rel=stylesheet href=/css/main.min.f96512645528e50ad80abe34d19dfca3a647907fe08a1e6f72a5683dab212429.css>-->
+    <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <header class=header>
         <div class=container>
             <div class=row>
                 <div class="header__inner col col-12">
-                    <div class=logo>
-                        <a class=logo__link href=https://wanghaocen.github.io>
-                            Haocen Wang
-                         </a>
-                    </div>
-                <div class=nav-grid>
-                    <div class=nav-grid__item>
-                        <h2 class=nav-grid__title>Menu</h2>
+                    <div class=nav-grid>
+                        <div class=nav-grid_item>
                             <div class=mobile-nav>
-                                <ul class="nav__list list-reset">
-                                    <li class=nav__item>
-                                        <a href='/index' class=nav__link>Home</a>
-                                    </li>
-                                    <li class=nav__item>
-                                        <a href='/service' class=nav__link>Services</a>
-                                    </li>
-                                    <li class=nav__item>
-                                        <a href='/about' class=nav__link>About</a>
-                                    </li>
-                                    <li class=nav__item>
-                                        <a href='/contact' class=nav__link>Contact</a>
-                                    </li>
+                                <ul class="nav_list" >
+                                    <p class=nav_item>
+                                        <a href='/' class=nav_links>Home</a>
+                                        <a href='/service' class=nav_links>Projects</a>
+                                        <a href='/about' class=nav_links>About</a>
+                                        <a href='/contact' class=nav_links>Contact</a>
+                                    </p>
                                 </ul>
                             </div>
                         </div>
@@ -57,84 +45,49 @@
                 </div>
             </div>
         </div>
-
-        <div class=navigation>
-            <div class=top-nav>
-                <ul class="nav__list list-reset">
-                    <li class=nav__item>
-                        <a href=/ class=nav__link>Home</a>
-                    </li>
-                    <li class=nav__item>
-                        <a href=/services class=nav__link>Services</a>
-                    </li>
-                    <li class=nav__item>
-                        <a href=/about class=nav__link>About</a>
-                    </li>
-                    <li class=nav__item>
-                        <a href=/contact class=nav__link>Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-            
-        <div class=nav-buttons>
-            <span class="nav__icon nav__icon-menu"><span class=iconify-inline data-icon=ion:menu></span></span>
-            <span class="nav__icon nav__icon-search"><span class=iconify-inline data-icon=ion:search></i></i>
-        </div>
         </header>
-
-        <div class=search>
+        
+        
+        <div class=content aria-label=Content>
             <div class=container>
                 <div class=row>
                     <div class="col col-12">
-                        <div class=search__box>
-                            <div class=search__group>
-                                <div class=search__close>
-                                    <span class=iconify-inline data-icon=ion:close></span>
+                        <div class=personal_main>
+                            <div class=personal_inner>
+                                <div class=port_image>
+                                    <img src=images/portfolio.jpg alt=Portfolio width="1200" height="400">
                                 </div>
-                            <label for=js-search-input class=screen-reader-text>Search for articles</label>
-                                <input type=text id=js-search-input class=search__text autocomplete=off placeholder=Search...>
+                                <div class=personal_content>
+                                    <h1 class=personal_title>Portfolio</h1>
+                                    <p class=personal_description>Personal Portfolio for Projects</p>
+                                </div>
                             </div>
-                        <div id=js-results-container class=search-results-list style=display:none></div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
-        <main class=content aria-label=Content>
-            <div class=container>
-                <div class=row>
-                    <div class="col col-12">
-                        <section class=hero>
-                            <div class=hero__inner>
-                                <div class=hero__image>
-                                    <!-- <img src=/images/manuelplavsic.ch/jens-johnsson-36a3U4_UUHY-unsplash.jpg alt=Portfolio> -->
-                                </div>
-                                <div class=hero__content>
-                                    <h1 class=hero__title>Portfolio</h1>
-                                     <p class=hero__desc>Projects, guides and ideas.</p>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-            
+        
+        
+        <!--
             <div class=container>
                 <div class="row grid">
                     <div class="article col col-4 col-d-6 col-t-12 grid__post animate">
                         <div class=article__inner>
                             <a class=article__image onclick="location.href='/articles/hoteldemo/'">
+                                -->
                                 <!--<img src=https://www.manuelplavsic.ch/images/hoteldemo/visualsofdana-T5pL6ciEn-I-unsplash.jpg alt="Hotel Demo"> -->
+                                <!-- 
                             </a>
                         <div class=article__content onclick="location.href='/articles/hoteldemo/'">
                             <div class=article__bottom>
                                 <div class=article-tags__box>
+                                    -->
                                     <!--
                                     <a href=https://www.manuelplavsic.ch/tags/website/ class=article__tag>website</a>
                                     <a href=https://www.manuelplavsic.ch/tags/hugo/ class=article__tag>hugo</a>
                                     -->
+                                    <!-- 
                                 </div>
                             </div>
                             <h2 class=article_title>
@@ -212,7 +165,7 @@
             
         </main>
 
-    
+    -->
 
 
     </body>
@@ -220,6 +173,7 @@
 
 
 </html>
+
 <!-- 
 
 <!doctype html><html lang=en-us>
